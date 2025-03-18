@@ -1,3 +1,13 @@
+## アプリケーションへの接続確認
+
+＜一覧画面＞
+![一覧画面](images/lecture03/application-connection-success-list-page.png)
+
+---
+
+＜新規登録画面＞
+![登録画面](images/lecture03/application-connection-success-registration-page.png)
+
 ## 1.AP サーバーについて調べる
 
 Q. AP サーバーの名前とバージョンは？
