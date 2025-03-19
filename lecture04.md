@@ -48,6 +48,6 @@ EC2 からの MySQL への接続を許可するインバウンドルール
 外部への通信を許可するアウトバウンドルール
 ![アウトバウンドルール](images/lecture04/rds-outbound-rule.png)
 
-## EC2 から RDS への接続確認
+## 4. EC2 から RDS への接続確認
 
 ![接続確認](images/lecture04/mysql-login-success.png)
