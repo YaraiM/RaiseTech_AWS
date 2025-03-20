@@ -20,9 +20,6 @@ HTTP/HTTPS および MyIP アドレスからの SSH を許可するインバウ�
 外部への通信を許可するアウトバウンドルール
 ![アウトバウンドルール1](images/lecture04/ec2-outbound-rule.png)
 
-RDS への接続を許可するアウトバウンドルール
-![アウトバウンドルール2](images/lecture04/ec2-rds-outbound-rule.png)
-
 ## 3. RDS の作成
 
 ### 概要
@@ -39,11 +36,8 @@ RDS への接続を許可するアウトバウンドルール
 
 ### セキュリティグループのルール
 
-MyIP アドレスから MySQL への接続を許可するインバウンドルール
-![インバウンドルール](images/lecture04/rds-inbound-rule.png)
-
 EC2 からの MySQL への接続を許可するインバウンドルール
-![インバウンドルール](images/lecture04/rds-ec2-inbound-rule.png)
+![インバウンドルール](images/lecture04/rds-inbound-rule.png)
 
 外部への通信を許可するアウトバウンドルール
 ![アウトバウンドルール](images/lecture04/rds-outbound-rule.png)
