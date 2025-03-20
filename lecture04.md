@@ -36,7 +36,7 @@ HTTP/HTTPS および MyIP アドレスからの SSH を許可するインバウ�
 
 ### セキュリティグループのルール
 
-EC2 からの MySQL への接続を許可するインバウンドルール
+EC2 から MySQL への接続を許可するインバウンドルール
 ![インバウンドルール](images/lecture04/rds-inbound-rule.png)
 
 外部への通信を許可するアウトバウンドルール
