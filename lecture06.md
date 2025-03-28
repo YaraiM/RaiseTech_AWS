@@ -50,11 +50,37 @@ https://calculator.aws/#/estimate?id=78273ab92d89e29ec0f4c5ac8d68fefd727e3495
 
 ### 先月（２月）の利用料
 
-総計：$7.95
+#### 総計：$7.95（税抜$7.23）
+
 ![Billing-Summary](images/lecture06/Billing_Summary.png)
 
-EC2 の料金：$0
+#### EC2 の料金：$0
 
-※利用時間 750.0 Hrs 以下、EBS 利用が 30GB 以下のため、無料利用枠で収まっている
+利用時間 750.0 Hrs 以下、EBS 利用が 30GB 以下のため、無料利用枠で収まっている
 
 ![Billing-EC2](images/lecture06/Billing_EC2.png)
+
+#### RDS の料金：$0
+
+利用時間 750.0 Hrs 以下、ストレージ 利用が 20GB 以下のため、無料利用枠で収まっている
+
+![Billing_RDS](images/lecture06/Billing_RDS.png)
+
+#### ALB の料金：$0
+
+利用時間 750.0 Hrs 以下、15 LCU 以下のため、無料利用枠で収まっている
+![Billing_ALB](images/lecture06/Billing_ALB.png)
+
+#### VPC の料金：$6.73
+
+EC2 に割り当てられているパブリック IPv4 は無料枠（750 時間以内）のため、費用ゼロ。
+
+ALB に割り当てられるパブリック IPv4 には無料利用枠がないため、1 アドレス 1 時間あたり 0.005 ドルの費用が発生。ALB 稼働時間は 672 時間/月だが、ALB は二つの AZ に存在するため、二つのパブリック IPv4 アドレスを占有することから、672×2≒1345 時間の使用量となっている。
+
+![Billing_VPC](images/lecture06/Billing_VPC.png)
+
+#### Route53 の料金：$0.50
+
+ホストゾーンを一つ設定しているため発生。
+
+![Billing_Route53](images/lecture06/Billing_Route53.png)
