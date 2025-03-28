@@ -46,7 +46,7 @@
 
 ### 見積もり
 
-https://calculator.aws/#/estimate?id=4138dd430693e917274e7a90c3fdcff05de82160
+https://calculator.aws/#/estimate?id=78273ab92d89e29ec0f4c5ac8d68fefd727e3495
 
 ### 先月（２月）の利用料
 
